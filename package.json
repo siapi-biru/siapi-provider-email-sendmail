@@ -1,0 +1,31 @@
+{
+  "name": "siapi-provider-email-sendmail",
+  "version": "3.6.5",
+  "description": "Sendmail provider for siapi email",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "sendmail": "^1.6.1",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "siapi": {
+    "isProvider": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
