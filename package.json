@@ -8,7 +8,7 @@
   "main": "./lib",
   "dependencies": {
     "sendmail": "^1.6.1",
-    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+    "siapi-utils": "github:siapi-biru/siapi-utils"
   },
   "siapi": {
     "isProvider": true
